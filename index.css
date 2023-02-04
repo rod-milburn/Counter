@@ -1,0 +1,61 @@
+body {
+   
+   background-image:url(Tori.jpg);
+   background-size:cover;
+   text-align: center;
+   height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;   
+}
+
+.container{
+background: rgba(128, 128, 128, 0.917);
+max-width:50%;
+margin:auto;
+border: 3px solid black;
+border-color: black;
+border-radius: 10px; 
+margin-top: 250px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn:hover{
+    background:rgb(248, 4, 4);
+}
+
+#increment-btn {
+    background: rgba(159, 27, 27, 0.83);
+    
+}
+
+#save-btn:hover{
+    background-color: rgba(26, 175, 51, 0.99);
+}
+#save-btn {
+      background: rgba(0, 100, 0, 0.783);
+   
+}
+#save-el {
+    font-weight: bold;
+}
